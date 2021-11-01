@@ -20,11 +20,137 @@ body {
 
 main.container {
     background: white;
-    height: 80%;
-    width: 80%;
+    margin-top: -6px;
+    width: 640px;
+    height: 670px;
     display: flex;
+    flex-direction: column;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 3.5rem 95px;
 }
 
 .image img {
-    height: ;
+    width: 430px;
+    height: 670px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+body h1 {
+    position: absolute;
+    color: white;
+    margin-left: -660px;
+    font-size: 70px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    margin-bottom: 3rem;
+}
+
+.login h6 {
+    font-weight: 300;
+    color: #b3b3b3;
+    font-size: 13px
+}
+
+.login h2 {
+    font-weight: 750;
+    font-size: 50px;
+}
+
+form .input-field:nth-child(2) {
+    margin-bottom: 2.5rem
+}
+
+form .input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+form .input-field span {
+    margin-bottom: 7px;
+    color: #797979;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+form .input-field input {
+   background: #f9f9f9;
+   padding: 9px;
+   outline: none;
+   border: 2px solid #dddddd;
+   border-radius: 3.77px;
+   font-size: 13.5px;
+   transition: .2s all ease-in;
+}
+
+form .input-field input::placeholder {
+    color: #afafaf
+}
+
+form .input-field input:focus {
+    background: #d3d3d3;
+    border-color: #acacac;
+}
+
+form .forget {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+form .forget a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #828282;
+    margin-left: 180px;
+
+}
+
+form .forget a:hover {
+    color: #525252;
+}
+
+form input[type='submit'] {
+    padding: 0.89rem 1rem;
+    border-radius: 7px;
+    background: #1a8435;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+form input[type='submit']:hover { 
+    background: #28a547;
+    letter-spacing: 0.5px;
+}
+
+main.container .footer {
+    margin-top: 2.5rem;
+}
+
+main.container .footer h5 {
+    font-size: 14.55px;
+    font-weight: 400;
+    color: #828282;
+}
+
+main.container .footer a {
+    text-decoration: none;
+    color: #199839;
+    font-weight: 700;
+}
+
+main.container .footer a:hover {
+    text-decoration: none;
+    color: #1a8435;
 }

@@ -8,26 +8,37 @@
     <title>Login</title>
 </head>
 <body>
+    <h1>Welcome 
+    <br>
+    Back!</h1>
+    <div class="image">
+        <img src="img/mona-eendra-fIoQ-aRycys-unsplash.jpg" alt="plant" >
+    </div>
     <main class="container">
-        <div class="image">
-            <img src="img/mona-eendra-fIoQ-aRycys-unsplash.jpg" alt="plant" >
-        </div>
         <form action="">
+            <div class="login">
+                <h2>Login</h2>
+                <h6>Welcome back! Please login to you account.</h6>
+            </div>
             <div class="input-field">
                 <span>Username</span>
-                <input type="text" id="username" name="username" placeholder="Enter Your Username">
+                <input type="text" id="username" name="username" placeholder="Enter Your Username" autocomplete="off">
             </div>
             <div class="input-field">
                 <span>Password</span>
                 <input type="password" id="password" name="password" placeholder="Enter Your Password">
             </div>
-            <div class="footer">
-                <span>Remember Me</span>
-                <input type="checkbox" id="rememberme" name="rememberme">
-                <a href="#" class="forget">Forget Password?</a>
+            <div class="forget">
+                <a href="#">Forget Password?</a>
             </div>
 
+            <input type="submit" value="Login">
+
         </form>
+
+        <div class="footer">
+            <h5>New User? <a href="#"> Sign up</a></h5>
+        </div>
     </main>
 </body>
 </html>
